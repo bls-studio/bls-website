@@ -1,0 +1,17 @@
+@import '../App/reset.scss';
+
+
+// Color Scheme
+$charcoal: #36454F;
+$ink: #062F4F;
+$ember: #B82601;
+$posy: #813772;
+$black: rgb(24, 27, 39);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+$montserrat:'Montserrat', sans-serif;
+
+* {
+  // outline: 1px solid red;
+}
