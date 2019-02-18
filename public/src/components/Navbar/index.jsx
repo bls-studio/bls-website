@@ -5,7 +5,7 @@ import { push as Menu } from 'react-burger-menu';
 
 const Navbar = () => (
   <div id="navbar">
-    <div className="navbar-logo"><h1>BLS</h1></div>
+    {/* <div className="navbar-logo"><h1>BLS</h1></div> */}
     <Menu left id="burger" pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
       <nav>
         <ul className="navbar-list">
