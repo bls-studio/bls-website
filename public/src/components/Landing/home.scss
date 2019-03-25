@@ -1,128 +1,97 @@
 @import '../App/global.scss';
 
-#home {
-  background: $black;
-  
-  h3 {
-    font-size: 60px;
-    font-family: $montserrat;
-    font-weight: 700;
-    color: white;
-    text-shadow: .5px .5px 5px $black;
-  }
-}
 
-.parallax {
-  perspective: 1px;
-  height: 90vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  transform-style: preserve-3d;
-}
-.parallax__layer {
-  width: 80%;
-  margin: 0 auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: none;
-  justify-content: center;
-  padding: 52vh 0 80vh;
-}
-.parallax__layer--base {
-  transform: translateZ(-1px) scale(2);
-}
-.parallax__layer--back {
-  // position: absolute;
-  left: 128%;
-  transform: translateZ(-5px) scale(3);
-  background: url(https://images.unsplash.com/photo-1520390138845-fd2d229dd553?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80) 50% 50% no-repeat;
-  background-size: cover;
-  width: 80%;
-
-   .parallax__overlay {
-    background: rgba(24, 27, 39, .4);
-    width: 100%;
-    height: 100%;
-  }
-}
-.home-static {
-  width: 80%;
-  // margin: 0 auto;
-  position: absolute;
-  top: 80%;
-  left: 10%;
-
-}
-.home-tagline {
-  border-bottom: 2px solid $ember;
-  padding-bottom: 2px;
-  font-family: $ptserif;
-  font-size: 24px;
-  color: white;
-}
-.home-background-overlap {
-  background: $black;
-  width: 50%;
-  height: 5vh;
-  position: absolute;
-  right: 50%;
-  // box-shadow: 1px 1px 5px 2px $black;
-}
 
 // #home {
 //   background: $black;
-//   background-attachment: fixed;
-//   width: 100%;
-//   // height: 100vh;
-// }
-// .home-container {
-//   display: flex;
-//   width: 70%;
-//   height: 90vh;
-//   z-index: 0;
-//   margin: 0 auto;
-//   // justify-content: center;
-//   align-items: center;
-//   perspective: 1px;
-//   overflow-x: hidden;
-//   overflow-y: auto;
-
-// }
-// .home-left {
-//   // background: $black;
-//   width: 70%;
-//   height: 100%;
-//   display: flex;
-//   align-items: center;
-//   z-index: 1;
+  
 //   h3 {
-//     padding-left: 15%;
 //     font-size: 60px;
 //     font-family: $montserrat;
 //     font-weight: 700;
 //     color: white;
+//     text-shadow: .5px .5px 5px $black;
 //   }
-  
 // }
-// .home-right {
-//   width: 50%;
-//   height: 400px;
+
+// .home-image {
 //   background: url(https://images.unsplash.com/photo-1520390138845-fd2d229dd553?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80) 50% 50% no-repeat;
-//   background-size: cover;
-//   position: relative;
-//   // z-index: 1;
-//   // height: 100vh;
-//   transform: translateZ(-1px) scale(2);
-//   z-index: -1;
-//   // margin: 15%;
 // }
-// .home-right-overlay {
-//   width: 100%;
-//   height: 100%;
-//   background: rgba(24, 27, 39, .4);
+// .home-static {
+//   width: 80%;
+//   // margin: 0 auto;
+//   position: absolute;
+//   top: 80%;
+//   left: 10%;
+
 // }
+// .home-tagline {
+//   border-bottom: 2px solid $ember;
+//   padding-bottom: 2px;
+//   font-family: $ptserif;
+//   font-size: 24px;
+//   color: white;
+// }
+// .home-background-overlap {
+//   background: $black;
+//   width: 50%;
+//   height: 5vh;
+//   position: absolute;
+//   right: 50%;
+//   // box-shadow: 1px 1px 5px 2px $black;
+// }
+
+// // #home {
+// //   background: $black;
+// //   background-attachment: fixed;
+// //   width: 100%;
+// //   // height: 100vh;
+// // }
+// // .home-container {
+// //   display: flex;
+// //   width: 70%;
+// //   height: 90vh;
+// //   z-index: 0;
+// //   margin: 0 auto;
+// //   // justify-content: center;
+// //   align-items: center;
+// //   perspective: 1px;
+// //   overflow-x: hidden;
+// //   overflow-y: auto;
+
+// // }
+// // .home-left {
+// //   // background: $black;
+// //   width: 70%;
+// //   height: 100%;
+// //   display: flex;
+// //   align-items: center;
+// //   z-index: 1;
+// //   h3 {
+// //     padding-left: 15%;
+// //     font-size: 60px;
+// //     font-family: $montserrat;
+// //     font-weight: 700;
+// //     color: white;
+// //   }
+  
+// // }
+// // .home-right {
+// //   width: 50%;
+// //   height: 400px;
+// //   background: url(https://images.unsplash.com/photo-1520390138845-fd2d229dd553?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80) 50% 50% no-repeat;
+// //   background-size: cover;
+// //   position: relative;
+// //   // z-index: 1;
+// //   // height: 100vh;
+// //   transform: translateZ(-1px) scale(2);
+// //   z-index: -1;
+// //   // margin: 15%;
+// // }
+// // .home-right-overlay {
+// //   width: 100%;
+// //   height: 100%;
+// //   background: rgba(24, 27, 39, .4);
+// // }
 
 
